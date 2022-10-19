@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*  header  */
+
+.header{
+
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.headertext{
+
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+/*  nav__links  */
+
+a{
+    
+    text-decoration: none;
+
+}
+
+/* отступы */
+.nav__link{
+    
+    margin-top: 25px;
+    margin-right: 100px;
+
+}
+
+.nav__link > a{
+
+   margin-left: 20px;
+
+}
+
+
+
+.nav__link > a{
+    
+    font-size: 1.2em;
+    color: black;
+    border-bottom: 4px solid rgb(99, 98, 98); 
+    padding-bottom: 3px;
+
+}
+
+.nav__link >a:hover{
+ 
+    cursor: pointer;
+    border-bottom: 4px solid rgb(206, 134, 0);
+
+
+}
+
+/* -------------------------- */
+/* headermain */
+
+.headermain{
+
+    width: 100%;
+    height: 1000px;
+    background-size:cover;
+    background-image: url('https://pvtest.ru/wp-content/uploads/8/9/3/893430a93822b99e51e99c6b344891d3.jpeg');
+    background-repeat: no-repeat;
+    
+}
+.headermain > h1{
+
+    color: white;
+    text-align: center;
+    
+}
+
+/* блок main */
+
+.main{
+    
+   width: 100%;
+   height: 970px;
+
+}
+
+/* Первый подблок main */
+
+.maininfo1{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.maininfo1foto{ /* Фото 1 подблок */
+   padding-top: 30px;
+   width: 550px;
+   height: 450px;
+
+}
+
+.maininfo1text{ /* Текст 1 подблок */
+    
+   font-family: cursive;
+   text-align: left;
+   padding-top: 50px;
+   padding-left: 50px;
+   font-size: 1.1em;
+   
+}
+
+/* Второй подблок main */
+
+.maininfo2{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.maininfo2foto{ /* Фото 2 подблок */
+    padding-top: 30px;
+    padding-left: 300px;
+    width: 600px;
+    height: 450px;
+}
+
+.maininfo2text{ /* Текст 2 подблок */
+    
+    font-family: cursive;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 1.1em;
+    
+ }
+
+ .footer{
+    
+   width: 100%;
+   height: 100px;
+   background-color: #333;
+ }
+ .footer > h1{
+    
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
